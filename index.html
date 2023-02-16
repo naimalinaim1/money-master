@@ -38,12 +38,12 @@
                         </label>
                     </div>
                     <div class="text-center">
-                        <button class="my-4 ml-10 bg-cyan-600 px-10 py-3 font-semibold text-white text-xl rounded">Calculate</button>
+                        <button id="calculate-balance" class="my-4 ml-10 bg-cyan-600 px-10 py-3 font-semibold text-white text-xl rounded">Calculate</button>
                     </div>
                     <!-- calculate expenses and balance -->
                     <div class="text-center text-2xl font-semibold">
-                        <h2 class="my-3">Total Expenses: <span id="expenses">00</span></h2>
-                        <h2 class="mb-6">Balance: <span id="expenses">00</span></h2>
+                        <h2 class="my-3">Total Expenses: <span id="expenses-total">00</span></h2>
+                        <h2 class="mb-6">Balance: <span id="balance-total">00</span></h2>
                     </div>
                     <!-- saving setting -->
                     <div class="flex justify-evenly items-center">
@@ -62,5 +62,9 @@
             </div>
         </section>
     </main>
+
+    <!-- script file -->
+    <script src="js/utilities.js"></script>
+    <script src="js/calculate.js"></script>
 </body>
 </html>
