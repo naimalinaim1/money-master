@@ -12,33 +12,33 @@
     <main>
         <section class="w-5/6 mx-auto">
             <h1 class="text-teal-600 text-5xl font-bold text-center mt-5 mb-8">Money Master</h1>
-            <div class="flex gap-5">
-                <div class="w-7/12">
+            <div class="md:flex gap-5">
+                <div class="md:w-7/12">
                     <img src="images/money-master.png" alt="money master">
                 </div>
-                <div class="w-5/12 bg-slate-200 p-4">
+                <div class="md:w-5/12 bg-slate-200 p-4">
                     <!-- income field area -->
-                    <div class="text-right">
+                    <div class="md:text-right">
                         <p class="text-center font-semibold text-xl mb-2">Income</p>
-                        <label for="income-field" class="block pr-20">
+                        <label for="income-field" class="block lg:pr-20 md:pr-10">
                             Income: <input id="income-field" class="bg-gray-300 px-3 py-2 rounded" type="number" name="income-field" >
                         </label>
                     </div>
                     <!-- expenses fields area -->
-                    <div class="text-right">
+                    <div class="md:text-right">
                         <p class="text-center font-semibold text-xl mb-2 mt-3">Expenses</p>
-                        <label for="food-field" class="block mb-4 pr-20">
+                        <label for="food-field" class="block mb-4 lg:pr-20 md:pr-10">
                             Food: <input id="food-field" type="number" class="bg-gray-300 px-3 py-2 rounded"  name="food-field" >
                         </label>
-                        <label for="rent-field" class="block mb-4 pr-20">
+                        <label for="rent-field" class="block mb-4 lg:pr-20 md:pr-10">
                             Rent: <input id="rent-field" type="number" class="bg-gray-300 px-3 py-2 rounded" name="rent-field">
                         </label>
-                        <label for="cloth-field" class="block mb-4 pr-20">
+                        <label for="cloth-field" class="block mb-4 lg:pr-20 md:pr-10">
                             Clothes: <input id="cloth-field" type="number" class="bg-gray-300 px-3 py-2 rounded" name="cloth-field">
                         </label>
                     </div>
                     <div class="text-center">
-                        <button id="calculate-balance" class="my-4 ml-10 bg-cyan-600 px-10 py-3 font-semibold text-white text-xl rounded">Calculate</button>
+                        <button id="calculate-balance" class="my-4 lg:ml-10 bg-cyan-600 px-10 py-3 font-semibold text-white text-xl rounded">Calculate</button>
                     </div>
                     <!-- calculate expenses and balance -->
                     <div class="text-center text-2xl font-semibold">
