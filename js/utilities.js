@@ -8,9 +8,14 @@ function selectElement (id) {
     return element;
 }
 
+/**
+ * 
+ * @param {element id} id 
+ * @param {set value} value 
+ */
 function setElementValue (id, value) {
     const element = selectElement(id);
-    element.innerText = value;
+    element.innerText = value.toFixed(2);
 }
 
 /**

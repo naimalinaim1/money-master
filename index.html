@@ -48,10 +48,10 @@
                     <!-- saving setting -->
                     <div class="flex justify-evenly items-center">
                         <label for="save-amount-field" class="block">
-                            Save: <input id="save-amount-field" type="number" class="bg-gray-300 px-3 py-2 rounded w-24" name="save-amount-field" >
+                            Save: <input id="save-amount-field" type="number" class="bg-gray-300 px-3 py-2 rounded w-24" name="save-amount-field" placeholder="20">
                         </label>
                         <p class="w-4">%</p>
-                        <button class="bg-cyan-600 px-12 py-3 font-semibold text-white text-xl rounded">Save</button>
+                        <button id="save-balance-calculate" class="bg-cyan-600 px-12 py-2 font-semibold text-white text-xl rounded">Save</button>
                     </div>
                     <!-- saving amount and remaining balance -->
                     <div class="text-center text-2xl font-semibold">
@@ -66,5 +66,6 @@
     <!-- script file -->
     <script src="js/utilities.js"></script>
     <script src="js/calculate.js"></script>
+    <script src="js/save-balance.js"></script>
 </body>
 </html>
